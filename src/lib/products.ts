@@ -1,6 +1,4 @@
 import growth from "@/assets/product-growth.jpg";
-import antifall from "@/assets/product-antifall.jpg";
-import scalp from "@/assets/product-scalp.jpg";
 
 export const BRAND_NAME = "Shraddha Ayurvedic";
 export const BRAND_TAGLINE = "Traditional Ayurvedic Hair Oil";
@@ -51,62 +49,6 @@ export const products: Product[] = [
       { name: "Priya S.", rating: 5, text: "Visibly thicker hair in just 6 weeks. The aroma is divine." },
       { name: "Rahul M.", rating: 5, text: "Reduced my hair fall significantly. Highly recommend." },
       { name: "Ananya K.", rating: 4, text: "Great oil, leaves hair soft and shiny." },
-    ],
-  },
-  {
-    slug: "herbal-anti-hair-fall-oil",
-    name: "Herbal Anti-Hair Fall Oil",
-    tagline: "Stop hair fall. Restore strength.",
-    description:
-      "A potent infusion of Bhringraj, Hibiscus and Methi that targets the root cause of hair fall while deeply conditioning each strand.",
-    price: 549,
-    image: antifall,
-    benefits: [
-      "Reduces hair fall in 4–6 weeks",
-      "Repairs damaged follicles",
-      "Calms scalp inflammation",
-      "Prevents premature greying",
-    ],
-    ingredients: ["Bhringraj", "Hibiscus", "Methi (Fenugreek)", "Curry Leaves", "Sesame Oil"],
-    howToUse: [
-      "Warm a tablespoon of oil between your palms.",
-      "Apply along the parting and massage into the scalp.",
-      "Leave overnight or for a minimum of 2 hours.",
-      "Rinse with a sulphate-free shampoo.",
-    ],
-    suitableFor: ["Hair fall prone scalps", "Oily & combination scalps", "Post-pregnancy hair loss"],
-    reviews: [
-      { name: "Sneha R.", rating: 5, text: "My pillow is finally clean. Hair fall reduced drastically." },
-      { name: "Vikram P.", rating: 4, text: "Smells herbal and authentic — works as promised." },
-      { name: "Meera L.", rating: 5, text: "Best anti hair fall oil I have used in years." },
-    ],
-  },
-  {
-    slug: "natural-scalp-care-oil",
-    name: "Natural Scalp Care Oil",
-    tagline: "Soothes itch. Clears flakes.",
-    description:
-      "A cooling blend of Neem, Tea Tree and Coconut that detoxifies the scalp, tackles dandruff and restores a healthy, balanced microbiome.",
-    price: 459,
-    image: scalp,
-    benefits: [
-      "Fights dandruff and flakes",
-      "Soothes itchy, irritated scalp",
-      "Balances scalp oil",
-      "Refreshes with a cooling effect",
-    ],
-    ingredients: ["Neem", "Tea Tree", "Coconut Oil", "Camphor", "Aloe Vera Extract"],
-    howToUse: [
-      "Section the hair and apply oil directly to the scalp.",
-      "Massage gently for 5 minutes.",
-      "Leave for 45 minutes to 1 hour.",
-      "Wash off with a mild shampoo. Use twice weekly.",
-    ],
-    suitableFor: ["Dandruff prone scalps", "Sensitive scalps", "Oily scalps"],
-    reviews: [
-      { name: "Divya N.", rating: 5, text: "Goodbye dandruff! Scalp feels fresh after every wash." },
-      { name: "Arjun T.", rating: 4, text: "Cooling and refreshing. Itch is gone." },
-      { name: "Kavya B.", rating: 5, text: "Gentle enough for my sensitive scalp." },
     ],
   },
 ];
